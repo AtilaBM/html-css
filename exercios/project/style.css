@@ -1,0 +1,242 @@
+/* #152340 */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.hero{
+    /* border: 1px solid red; */
+    height: 100px;
+    width: 100%;
+    background-color:#ffffff ;
+}
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 1px solid white; */
+}
+.logo{
+    color: #152340;
+    font-size: 35px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: #152340;
+    font-weight: bold;
+    font-size: 16px;
+    transition: .3s;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: #152340 ;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+nav button{
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #152340;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: .4s;
+}
+nav button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.boxbusca {
+    display: flex;
+    background-color: #152340;
+    height: 40px;
+    margin-right: 5%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.btn{
+    /* border: 1px solid red; */
+    padding: 0;
+    color: white;
+    background-color: #152340;
+    width: 30px;
+    height: 20px;
+    transition:2s;
+}
+.inputbusca{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 0px;
+}
+.lupa{
+    display: flex;
+    width: 80%;
+}
+.boxbusca:hover > .inputbusca{
+    width: 240px;
+    padding: 0 6px;
+}
+
+/* conteudo */
+
+.conteudo{
+    /* background-color: #bfbfbf; */
+    display: flex;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 600px;
+    
+    
+    
+}
+.imgmain{
+    /* border: 1px solid black; */
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+img{
+    width: 720px;
+    
+    
+}
+.txtmain{
+    flex-wrap: wrap;
+    display: flex;
+    /* border: 1px solid black; */
+    width: 25%;
+    margin-left: 10%;
+    color: #152340;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.txtmain h1{
+    font-size: 65px;
+}
+.txtmain h2{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.buttonmain{
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #152340;
+    width: 350px;
+    height: 50px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: .4s;
+}
+.txtmain button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}/*conteudo*/
+
+/*pesquisa*/
+
+.buscas{
+    display: flex;
+    border: 5px solid green;
+    width: 100%;
+    height: 300px;
+    
+   
+}
+/* .imgbusca{
+    display: flex;
+   
+}
+.imgbusca img{
+    border: 5px solid red;
+    width:100% ;
+    margin-right: 10%;
+    height: 100%;
+}
+.txtbusca{
+    border: 5px solid rgb(201, 255, 6);
+    width: 40%;
+    margin-left: 10%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/*pesquisa*/
+
+/* card */
+
+.maincard{
+    background-color: #152340;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 600px;
+}
+.merda{
+    display: flex;
+    /* border: 2px solid greenyellow; */
+    width: 100%;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+.merda h1{
+    border-bottom:5px solid #ffffff;
+}
+.imgcard{
+    display: flex;
+    border-radius: 10px;
+    width: 269px;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.card{
+    /* border: 2px solid rgb(255, 4, 4); */
+    
+    background-color: #152340;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 10%;
+    width: 20%;
+    height: 370px;
+    margin-left: 10%;
+    transition: .4s;
+}
+.card:hover{ 
+    transform: scale(1.1);
+}
+.txtcard{
+    color: #ffffff;
+    text-align: justify;
+    padding: 10px;
+}
